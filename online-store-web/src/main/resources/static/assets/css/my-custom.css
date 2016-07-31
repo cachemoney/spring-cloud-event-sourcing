@@ -1,0 +1,66 @@
+/* custom css */
+#owl-demo-1 {
+  border: 1px solid #f0f0f0;
+}
+
+.owl-item .item span a {
+  color: #000 !important;
+}
+
+.welcome-tag span {
+	color: steelblue;
+}
+
+/* Horizontal Menu Bar */
+#hmenu { 
+	border-top: 1px solid #999;
+	margin: 0;
+	padding: .3em 0 .3em 0;
+	text-align: center;
+	width: 100%;
+}
+
+#hmenu ul { 
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+#hmenu ul li { 
+   margin: 0;
+   padding: 0;
+   display: inline;
+   color: #000;
+}
+
+#hmenu>ul>li>a {
+	color: #000 !important;
+	font-family: Futura,sans-serif;
+  font-size: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-transform: uppercase;
+}
+#hmenu ul a:hover {
+  color: #639ec8;
+}
+
+/* Footer Promo  */
+#footer-promo {
+	border-top: 1px solid #e0dfdf;
+	border-bottom: 1px solid #e0dfdf;
+	text-align: center;
+	width: 70%;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn.btn-checkout {
+    background: #000;
+    border-radius:0;
+    color: #fff;
+    text-transform: uppercase;
+}
